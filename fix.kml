@@ -1,0 +1,5573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>fix</name>
+    <description/>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0000FF-3000-115-nodesc-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-0000FF-3000-115-nodesc-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff0000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-0000FF-3000-115-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0000FF-3000-115-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0000FF-3000-115-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Byron Smith Ford Sales</name>
+        <description>Byron Smith Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -113.4069,51.0382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cochrane Ford Sales</name>
+        <description>Cochrane Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -114.4704,51.1887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crowfoot Ford</name>
+        <description>Crowfoot Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -114.2023,51.1235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dale Adams Automotive</name>
+        <description>Dale Adams Automotive</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -114.071,50.9259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Drayton Valley Ford</name>
+        <description>Drayton Valley Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -114.9934,53.2273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ducharme Motors</name>
+        <description>Ducharme Motors</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.7635,54.2683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Healy Ford</name>
+        <description>Healy Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -113.5114,53.5371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Metro Ford Sales</name>
+        <description>Metro Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -114.0805,51.0039,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MGM Ford</name>
+        <description>MGM Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -113.8142,52.2489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Star Ford Sales Ltd.</name>
+        <description>North Star Ford Sales Ltd.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.3441,56.6724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rodeo Ford Sales Limited</name>
+        <description>Rodeo Ford Sales Limited</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.7273,50.0522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Iron Garage</name>
+        <description>The Iron Garage</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -113.9779,53.5424,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waterloo Ford Lincoln Sales</name>
+        <description>Waterloo Ford Lincoln Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -113.5093,53.5503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Western Motorsports, Inc.</name>
+        <description>Western Motorsports, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -113.8887,50.9286,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woodridge Ford</name>
+        <description>Woodridge Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -114.0719,50.988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cal Worthington Ford of AK, Inc</name>
+        <description>Cal Worthington Ford of AK, Inc</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -149.8683,61.2024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seekins Ford Lincoln Mercury</name>
+        <description>Seekins Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -147.6829,64.8562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Town & Country Ford]]></name>
+        <description><![CDATA[Town & Country Ford]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.9973,33.3643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woody Anderson Ford</name>
+        <description>Woody Anderson Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.6399,34.7568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crain Ford Chenal</name>
+        <description>Crain Ford Chenal</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -92.445,34.7573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mark Martin Ford</name>
+        <description>Mark Martin Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -91.6211,35.7659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Auto Safety House, LLC</name>
+        <description>Auto Safety House, LLC</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1162,33.4378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camelback Ford Lincoln Mercury</name>
+        <description>Camelback Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0528,33.5099,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Haney Motorsport, Inc.</name>
+        <description>Haney Motorsport, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -112.3753,33.4527,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Holmes Tuttle Ford</name>
+        <description>Holmes Tuttle Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.9831,32.2908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hot Rods By Dean</name>
+        <description>Hot Rods By Dean</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -112.0751,33.6804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jim Click Ford Lincoln Mercury</name>
+        <description>Jim Click Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8589,32.2063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RC Performance</name>
+        <description>RC Performance</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -112.8051,33.967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rods R Us</name>
+        <description>Rods R Us</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.8007,34.8682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sanderson Ford</name>
+        <description>Sanderson Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1688,33.5295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stage 3 Motorsports</name>
+        <description>Stage 3 Motorsports</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1232,33.4863,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Mustang Shop</name>
+        <description>The Mustang Shop</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.8443,33.3501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Capital Motors</name>
+        <description>Capital Motors</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -120.2467,55.7642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fernie Ford Sales</name>
+        <description>Fernie Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0589,49.5136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Key West Ford Sales</name>
+        <description>Key West Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9264,49.2024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Orchard Ford Sales</name>
+        <description>Orchard Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.4121,49.8977,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prince George Motors Ltd.</name>
+        <description>Prince George Motors Ltd.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.7617,53.8854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skaha Ford</name>
+        <description>Skaha Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.6072,49.4876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Exclusive-Fahrzeuge</name>
+        <description>Exclusive-Fahrzeuge</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -9.4784,47.6725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4 Wheel Parts Wholesalers</name>
+        <description>4 Wheel Parts Wholesalers</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -118.228,33.8723,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Albany Ford</name>
+        <description>Albany Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2984,37.8891,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antelope Valley Ford</name>
+        <description>Antelope Valley Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -118.1507,34.6699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Barry White's Street Rod Repair Co. Inc.]]></name>
+        <description><![CDATA[Barry White's Street Rod Repair Co. Inc.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.5972,33.8854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Valley Ford Lincoln Mercury</name>
+        <description>Big Valley Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -121.2744,38.0182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bill's Auto Dealer]]></name>
+        <description><![CDATA[Bill's Auto Dealer]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.2623,33.1801,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Briggs Motorsports</name>
+        <description>Briggs Motorsports</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -116.7897,33.016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brothers Performance</name>
+        <description>Brothers Performance</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.6031,33.8896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buerge Ford</name>
+        <description>Buerge Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -118.4581,34.0423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Campbell Auto Restoration</name>
+        <description>Campbell Auto Restoration</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9508,37.2792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chicane Sport Tuning, Inc.</name>
+        <description>Chicane Sport Tuning, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -118.3135,33.8465,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clevenger Ford Lincoln Mercury</name>
+        <description>Clevenger Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.0186,36.0786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corning Ford Mercury Kia</name>
+        <description>Corning Ford Mercury Kia</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1969,39.9284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Custom Motors</name>
+        <description>Custom Motors</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.8779,33.6791,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Danmar Autobody LLC</name>
+        <description>Danmar Autobody LLC</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.8707,33.6808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DenBeste Motorsports LLC</name>
+        <description>DenBeste Motorsports LLC</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.7988,38.5344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dynamic Auto West</name>
+        <description>Dynamic Auto West</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2239,37.4784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Eddy's Rod Shop]]></name>
+        <description><![CDATA[Eddy's Rod Shop]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -118.0648,34.0864,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Cajon Ford</name>
+        <description>El Cajon Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -116.9216,32.8067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Folsom Lake Ford</name>
+        <description>Folsom Lake Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -121.2117,38.6319,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ford of Montebello</name>
+        <description>Ford of Montebello</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -118.1262,34.0326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fremont Ford, Mazda, Subaru</name>
+        <description>Fremont Ford, Mazda, Subaru</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9945,37.524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fritts Ford</name>
+        <description>Fritts Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.4127,33.9276,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Frontier Ford</name>
+        <description>Frontier Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9715,37.3225,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Future Ford (Clovis, CA)</name>
+        <description>Future Ford (Clovis, CA)</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.73,36.8083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Future Ford (Roseville, CA)</name>
+        <description>Future Ford (Roseville, CA)</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -121.2566,38.7516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Future Ford of Sacramento</name>
+        <description>Future Ford of Sacramento</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -121.3563,38.662,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Galpin Ford</name>
+        <description>Galpin Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -118.4701,34.2215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gary Costello (Liquid Transport Testing)</name>
+        <description>Gary Costello (Liquid Transport Testing)</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.2679,35.4575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GRC Performance</name>
+        <description>GRC Performance</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.6816,33.6159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hillbank Motor Corporation</name>
+        <description>Hillbank Motor Corporation</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.7187,33.6397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Hot Rods & Custom Stuff, Inc.]]></name>
+        <description><![CDATA[Hot Rods & Custom Stuff, Inc.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1147,33.1224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hurst Performance Vehicles</name>
+        <description>Hurst Performance Vehicles</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.8584,33.6988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jim Burke Ford</name>
+        <description>Jim Burke Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.0375,35.3797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ken Grody Ford - Carlsbad</name>
+        <description>Ken Grody Ford - Carlsbad</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.3251,33.1288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ken Grody Ford CA</name>
+        <description>Ken Grody Ford CA</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.9972,33.8727,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kugel Komponents</name>
+        <description>Kugel Komponents</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.9394,33.9271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Elsinore Ford</name>
+        <description>Lake Elsinore Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.3034,33.6664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lavender Brothers</name>
+        <description>Lavender Brothers</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8426,36.6191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Liberty Motors</name>
+        <description>Liberty Motors</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.6253,36.5711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mendeola Powertrain Inc.</name>
+        <description>Mendeola Powertrain Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -116.9878,32.5659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moal Coachbuilders</name>
+        <description>Moal Coachbuilders</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2512,37.7918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muscle Cars USA</name>
+        <description>Muscle Cars USA</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.7288,34.028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mustang Ranch</name>
+        <description>Mustang Ranch</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9514,37.353,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Novato Ford</name>
+        <description>Novato Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.5644,38.0962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paso Robles Ford</name>
+        <description>Paso Robles Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -35.6455,90,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salinas Valley Ford Sales</name>
+        <description>Salinas Valley Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -121.6633,36.7153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Leandro Ford</name>
+        <description>San Leandro Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.161,37.7118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Star Ford</name>
+        <description>Star Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -118.2542,34.1354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunset Ford</name>
+        <description>Sunset Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -118.0353,33.7729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trafican Brothers</name>
+        <description>Trafican Brothers</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8655,38.4571,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Turin International Group, Inc.</name>
+        <description>Turin International Group, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.1016,33.1271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tuttle Click Ford</name>
+        <description>Tuttle Click Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.7256,33.6357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Voss Performance</name>
+        <description>Voss Performance</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.9049,33.8653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walnut Creek Ford</name>
+        <description>Walnut Creek Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0667,37.9047,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whipple Superchargers</name>
+        <description>Whipple Superchargers</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.8437,36.7807,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Columbine Ford Inc.</name>
+        <description>Columbine Ford Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -107.7832,39.5467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heritage Ford</name>
+        <description>Heritage Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -105.0636,40.4081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[O'meara Ford]]></name>
+        <description><![CDATA[O'meara Ford]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -104.991,39.885,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phil Long Ford LLC</name>
+        <description>Phil Long Ford LLC</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -104.8332,38.817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spradley-Barickman Ford, Lincoln, Mercury</name>
+        <description>Spradley-Barickman Ford, Lincoln, Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -104.6435,38.3114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Western Slope Auto</name>
+        <description>Western Slope Auto</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -108.6351,39.1051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crowley Ford</name>
+        <description>Crowley Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -72.8427,41.6772,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Family Ford</name>
+        <description>Family Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.0028,41.5721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Hot Rods & Horsepower]]></name>
+        <description><![CDATA[Hot Rods & Horsepower]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -72.7528,41.298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saybrook Ford</name>
+        <description>Saybrook Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -72.3743,41.2996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valenti Ford</name>
+        <description>Valenti Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.9521,41.3773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vintage Motorsports</name>
+        <description>Vintage Motorsports</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -72.8195,41.478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coast to Coast USA</name>
+        <description>Coast to Coast USA</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -75.6751,39.8088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Winner Ford-Dover</name>
+        <description>Winner Ford-Dover</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -75.5197,39.1548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EYG Engineering</name>
+        <description>EYG Engineering</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -99.14,19.43,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>All American Ford</name>
+        <description>All American Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3264,30.4471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>American Iron Motors</name>
+        <description>American Iron Motors</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.6542,30.4259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blow-By Racing</name>
+        <description>Blow-By Racing</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.0848,26.3767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brandon Ford</name>
+        <description>Brandon Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.3596,27.95,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Charlotte County Ford</name>
+        <description>Charlotte County Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.1014,26.9861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Commercial Tech USA, Inc.</name>
+        <description>Commercial Tech USA, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.3762,27.3744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Custom Cars/Speed Fanatics</name>
+        <description>Custom Cars/Speed Fanatics</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.0797,26.5376,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[D'Agostino Racing]]></name>
+        <description><![CDATA[D'Agostino Racing]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.2518,26.0492,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Don Barry Classics</name>
+        <description>Don Barry Classics</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.7479,30.3166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dynamic Racing Products</name>
+        <description>Dynamic Racing Products</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.288,26.264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eagle Roadster</name>
+        <description>Eagle Roadster</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.1145,30.7295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gary Yeomans Ford</name>
+        <description>Gary Yeomans Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.1036,29.2134,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gus Machado Ford Of Kendall</name>
+        <description>Gus Machado Ford Of Kendall</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.342,25.6265,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mike Davidson Ford</name>
+        <description>Mike Davidson Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.5485,30.3215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mullinax Ford-Mercury</name>
+        <description>Mullinax Ford-Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.9354,29.0473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nick Nicholas Ford</name>
+        <description>Nick Nicholas Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.3861,28.8531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sawgrass Ford Inc.</name>
+        <description>Sawgrass Ford Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.3363,26.1459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Southern Kustoms</name>
+        <description>Southern Kustoms</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.2519,26.7834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun Coast Cobra</name>
+        <description>Sun Coast Cobra</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.4454,27.3205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun State Ford</name>
+        <description>Sun State Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.4216,28.5536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunrise Ford</name>
+        <description>Sunrise Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.336,27.3495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tampa Bay Shelby, Inc.</name>
+        <description>Tampa Bay Shelby, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.7058,27.8309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tropical Ford</name>
+        <description>Tropical Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.4048,28.4101,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wayne Akers Ford</name>
+        <description>Wayne Akers Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.0725,26.6281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Weikert Ford</name>
+        <description>Weikert Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.7633,27.917,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wheels and Wings</name>
+        <description>Wheels and Wings</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.9269,28.9827,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Allan Vigil Ford</name>
+        <description>Allan Vigil Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3029,33.583,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gwinnett Place Ford</name>
+        <description>Gwinnett Place Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.1204,33.9624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McMichael Motorsports</name>
+        <description>McMichael Motorsports</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.8097,34.1522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Summit Racing Equipment</name>
+        <description>Summit Racing Equipment</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.1621,33.4129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sutton Racing Systems</name>
+        <description>Sutton Racing Systems</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.321,33.7925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Team Ford of Marietta</name>
+        <description>Team Ford of Marietta</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5494,33.9317,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>J.C. Lewis Ford</name>
+        <description>J.C. Lewis Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.1295,31.9934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Honolulu Ford LM</name>
+        <description>Honolulu Ford LM</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -157.8706,21.3275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jim Falk's Valley Isle Motors]]></name>
+        <description><![CDATA[Jim Falk's Valley Isle Motors]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -156.4646,20.8856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dewey Ford</name>
+        <description>Dewey Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -93.5811,41.6972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort Dodge Ford-Lincoln-Mercury</name>
+        <description>Fort Dodge Ford-Lincoln-Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -94.1543,42.5026,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junge Center Point Ford</name>
+        <description>Junge Center Point Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -91.78,42.1779,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mike Finnin Ford</name>
+        <description>Mike Finnin Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.6012,42.6076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pritchard Auto Stores</name>
+        <description>Pritchard Auto Stores</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -93.81,43.1007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gear 6 Performance</name>
+        <description>Gear 6 Performance</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -116.3863,43.6032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lithia Ford of Boise</name>
+        <description>Lithia Ford of Boise</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -116.2989,43.6211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Middlekauf Ford, Lincoln, Mercury</name>
+        <description>Middlekauf Ford, Lincoln, Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -114.4602,42.5841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anderson Ford Mercury</name>
+        <description>Anderson Ford Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.976,40.1514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bill Kay Ford</name>
+        <description>Bill Kay Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7372,41.6264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bowler Performance Transmission, Inc.</name>
+        <description>Bowler Performance Transmission, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6141,38.7501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bryden Ford Inc.</name>
+        <description>Bryden Ford Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3317,42.4336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Channel Velocity</name>
+        <description>Channel Velocity</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -87.6365,41.8953,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Chicago Part & Sound, LLC]]></name>
+        <description><![CDATA[Chicago Part & Sound, LLC]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -87.9841,41.974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gem City Ford Lincoln Mercury</name>
+        <description>Gem City Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -91.3355,39.9354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gurnee Ford Lincoln Mercury</name>
+        <description>Gurnee Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.0001,42.386,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Highland Park Ford Lincoln Mercury</name>
+        <description>Highland Park Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -87.8231,42.1889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Holzhauer City Ford</name>
+        <description>Holzhauer City Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3724,38.3632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jack Schmitt Ford, Inc.</name>
+        <description>Jack Schmitt Ford, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -89.9711,38.6926,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JBC Motorsports</name>
+        <description>JBC Motorsports</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.2483,41.5755,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mangold Ford</name>
+        <description>Mangold Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -89.2887,40.7193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mr. Kuston</name>
+        <description>Mr. Kuston</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7204,41.9536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Napleton</name>
+        <description>Napleton</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -87.9507,42.2712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Packey Webb Ford</name>
+        <description>Packey Webb Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.0231,41.8086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rad Rides by Troy</name>
+        <description>Rad Rides by Troy</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -87.8317,41.2517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roadster Shop</name>
+        <description>Roadster Shop</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.0417,42.2804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rod Baker Ford Sales</name>
+        <description>Rod Baker Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.1823,41.5899,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sexton Ford Sales</name>
+        <description>Sexton Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.507,41.4749,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snake Power Performance</name>
+        <description>Snake Power Performance</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.0585,41.903,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Charles</name>
+        <description>St. Charles</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.3486,41.913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Street Rods Only</name>
+        <description>Street Rods Only</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -89.9974,39.7004,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunset Ford Mercury</name>
+        <description>Sunset Ford Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.157,38.3695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sutton Ford</name>
+        <description>Sutton Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -87.7515,41.5029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bedford Ford Lincoln Mercury</name>
+        <description>Bedford Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.5463,38.927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bill McCoy Ford Lincoln Mercury</name>
+        <description>Bill McCoy Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -85.3655,40.219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cass County Ford Lincoln Mercury</name>
+        <description>Cass County Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.3169,40.7626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Expressway Ford</name>
+        <description>Expressway Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -87.9213,37.9283,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GT40 North America</name>
+        <description>GT40 North America</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.1392,40.039,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harold Zeigler Ford</name>
+        <description>Harold Zeigler Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.0138,41.6865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ray Skillman Ford</name>
+        <description>Ray Skillman Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.1045,39.5979,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tom Wood Ford, Inc</name>
+        <description>Tom Wood Ford, Inc</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.1098,39.9292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Town & Country Ford]]></name>
+        <description><![CDATA[Town & Country Ford]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -87.4594,37.9768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wyant Ford</name>
+        <description>Wyant Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -85.8382,40.281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Frontier Ford Lincoln Mercury</name>
+        <description>Frontier Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -100.0139,37.7538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Long McArthur, Inc.</name>
+        <description>Long McArthur, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.6172,38.776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rusty Eck Ford</name>
+        <description>Rusty Eck Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.2559,37.6788,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bill Collins Ford, Inc.</name>
+        <description>Bill Collins Ford, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -85.6398,38.1881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bruce Walters Ford</name>
+        <description>Bruce Walters Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.5279,37.4657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Champion Ford</name>
+        <description>Champion Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -87.115,37.7202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Greater Cincinnati Performance Cars</name>
+        <description>Greater Cincinnati Performance Cars</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5998,38.9712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Greenwood Ford Lincoln Mercury</name>
+        <description>Greenwood Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.4222,36.9437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lakeside Auto Sales LLC</name>
+        <description>Lakeside Auto Sales LLC</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -85.0635,37.0932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mike Castrucci Ford, Lincoln, Mercury</name>
+        <description>Mike Castrucci Ford, Lincoln, Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3984,38.9828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Modulardepot.com</name>
+        <description>Modulardepot.com</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.6495,39.0002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paducah Ford L-M</name>
+        <description>Paducah Ford L-M</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.6646,37.0853,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paul Miller Ford</name>
+        <description>Paul Miller Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4596,38.0411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tri-County Ford of Radcliff</name>
+        <description>Tri-County Ford of Radcliff</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -85.9396,37.8411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dick Barker Lincoln Mercury</name>
+        <description>Dick Barker Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.7405,29.5948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tarver Ford</name>
+        <description>Tarver Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -93.3642,30.232,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Robinson Brothers Ford</name>
+        <description>Robinson Brothers Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -91.0582,30.4002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stang-Hi Performance</name>
+        <description>Stang-Hi Performance</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -91.0592,30.39,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Streamline Motorsports Inc.</name>
+        <description>Streamline Motorsports Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -92.062,30.2208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colonial Ford</name>
+        <description>Colonial Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -70.6874,41.9527,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Factory Five Racing</name>
+        <description>Factory Five Racing</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -70.7436,41.781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Imperial Ford</name>
+        <description>Imperial Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.5622,42.1027,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stoneham Ford</name>
+        <description>Stoneham Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1003,42.4893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kelleher Ford</name>
+        <description>Kelleher Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -99.9618,49.8787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kelleher Ford Sales Dauphin</name>
+        <description>Kelleher Ford Sales Dauphin</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -100.0482,51.1501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Landau Ford Lincoln</name>
+        <description>Landau Ford Lincoln</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.1963,49.8846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mid-Town Ford Sales</name>
+        <description>Mid-Town Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -91.1779,49.8142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parkside Ford</name>
+        <description>Parkside Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.1112,49.9459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Wilf's Elie Ford]]></name>
+        <description><![CDATA[Wilf's Elie Ford]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7578,49.9011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Apple Ford</name>
+        <description>Apple Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.8182,39.1874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Automotive Accents Ltd.</name>
+        <description>Automotive Accents Ltd.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.6652,39.2235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Len Stoler, Inc.</name>
+        <description>Len Stoler, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.7971,39.4341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lexington Park Ford</name>
+        <description>Lexington Park Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.4898,38.2468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Preston Ford, Inc.</name>
+        <description>Preston Ford, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -75.8725,38.6939,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ramsey Ford Lincoln Mercury</name>
+        <description>Ramsey Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.0061,39.7016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Frederick Motor Co.</name>
+        <description>The Frederick Motor Co.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -77.4573,39.4173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Total Image</name>
+        <description>Total Image</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0267,38.6297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hight Ford Mercury</name>
+        <description>Hight Ford Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -69.7229,44.7726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miller Ford Inc.</name>
+        <description>Miller Ford Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -70.7883,43.4512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alan Christian Motorcars</name>
+        <description>Alan Christian Motorcars</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.1231,42.762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>American Speed Company</name>
+        <description>American Speed Company</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.4905,42.3916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Best Brands Repair Manuals</name>
+        <description>Best Brands Repair Manuals</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.2456,43.6672,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bill Brown Ford, Inc.</name>
+        <description>Bill Brown Ford, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3644,42.371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bill MacDonald Ford, Inc.</name>
+        <description>Bill MacDonald Ford, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.5062,42.8184,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Briarwood Ford</name>
+        <description>Briarwood Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.7408,42.1847,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brighton Ford-Mercury</name>
+        <description>Brighton Ford-Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.7908,42.5515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Campbell Ford Lincoln Mercury</name>
+        <description>Campbell Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.2506,41.7717,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Classic Motorsports</name>
+        <description>Classic Motorsports</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.5792,42.4229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Courtesy Ford-MI</name>
+        <description>Courtesy Ford-MI</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4162,42.7197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Don Seelye Ford</name>
+        <description>Don Seelye Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -85.6329,42.2715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fox Ford</name>
+        <description>Fox Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5798,42.9125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fox Marquette</name>
+        <description>Fox Marquette</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -87.4703,46.549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Friendly Ford</name>
+        <description>Friendly Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3907,41.9632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GT Racing</name>
+        <description>GT Racing</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.9011,42.5872,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jack Demmer Ford</name>
+        <description>Jack Demmer Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.404,42.2806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krapohl Ford Lincoln Mercury</name>
+        <description>Krapohl Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.7932,43.6118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krug Hilltop Ford</name>
+        <description>Krug Hilltop Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.8994,42.5959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lasco Ford</name>
+        <description>Lasco Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.7263,42.7898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Les Stanford Ford</name>
+        <description>Les Stanford Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -85.1941,42.3183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MMR LLC</name>
+        <description>MMR LLC</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.358,42.3823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Motor State</name>
+        <description>Motor State</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.2617,42.1756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mustang Racing Technologies</name>
+        <description>Mustang Racing Technologies</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.4936,42.3878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Brothers Ford</name>
+        <description>North Brothers Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3688,42.325,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Paul's High Performance]]></name>
+        <description><![CDATA[Paul's High Performance]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3462,42.2336,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rehagen Racing</name>
+        <description>Rehagen Racing</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.389,42.3784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Royal Oak Ford</name>
+        <description>Royal Oak Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.1616,42.4927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saginaw Valley Ford</name>
+        <description>Saginaw Valley Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.9795,43.4664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sellers Buick - Pontaic - GMC</name>
+        <description>Sellers Buick - Pontaic - GMC</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.4008,42.4689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stanton Ford, LLC</name>
+        <description>Stanton Ford, LLC</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -85.0863,43.3016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Suburban Ford - Waterford MI</name>
+        <description>Suburban Ford - Waterford MI</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.4037,42.6601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Suburban Ford of Sterling Heights</name>
+        <description>Suburban Ford of Sterling Heights</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.0308,42.5894,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taylor Ford</name>
+        <description>Taylor Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.2689,42.2288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tom Holzer Ford</name>
+        <description>Tom Holzer Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.434,42.4681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Varsity Ford</name>
+        <description>Varsity Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.802,42.2848,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zeigler Ford</name>
+        <description>Zeigler Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -85.3771,42.9303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Apple Ford of Shakopee</name>
+        <description>Apple Ford of Shakopee</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -93.5093,44.7758,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Country Ford</name>
+        <description>North Country Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -93.2912,45.1607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zumbrota Ford Mercury</name>
+        <description>Zumbrota Ford Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -92.6693,44.2826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Friendly Ford</name>
+        <description>Friendly Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -93.2634,37.1535,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gateway Classic Mustangs</name>
+        <description>Gateway Classic Mustangs</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.409,38.6996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lou Fusz Ford</name>
+        <description>Lou Fusz Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.6206,38.6699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunset Ford</name>
+        <description>Sunset Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.3848,38.5328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thoroughbred Ford, Inc.</name>
+        <description>Thoroughbred Ford, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -94.6562,39.2485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Astro Ford of Mississippi</name>
+        <description>Astro Ford of Mississippi</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8999,30.434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[BB & T Racing, LLC]]></name>
+        <description><![CDATA[BB & T Racing, LLC]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.0282,34.9918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gray Daniels Ford</name>
+        <description>Gray Daniels Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.036,32.2799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Archie Cochrane Motors Inc.</name>
+        <description>Archie Cochrane Motors Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -108.5686,45.7551,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flathead Customs</name>
+        <description>Flathead Customs</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -114.0512,48.003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taylor Ford</name>
+        <description>Taylor Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -64.7764,46.099,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wood Motors Ford</name>
+        <description>Wood Motors Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -66.6739,45.9441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bugzy's Rod House]]></name>
+        <description><![CDATA[Bugzy's Rod House]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -78.0317,34.2494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Capital Ford of Raleigh</name>
+        <description>Capital Ford of Raleigh</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -78.5805,35.8522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Capital Ford of Wilmington</name>
+        <description>Capital Ford of Wilmington</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -77.8919,34.2108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finish Line Ford</name>
+        <description>Finish Line Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.862,35.7754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Green Ford</name>
+        <description>Green Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.875,36.0613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[H & H Performance, LLC]]></name>
+        <description><![CDATA[H & H Performance, LLC]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -78.8658,35.0147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hilbish Motor Company</name>
+        <description>Hilbish Motor Company</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.6087,35.4592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jacky Jones Ford</name>
+        <description>Jacky Jones Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.8502,35.0333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Keeter Motors Inc.</name>
+        <description>Keeter Motors Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.4987,35.2729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kim Haynes Racetoration</name>
+        <description>Kim Haynes Racetoration</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.1551,35.227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lafayette Ford</name>
+        <description>Lafayette Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -78.9645,35.0428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mooresville Ford Mercury</name>
+        <description>Mooresville Ford Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.8342,35.5896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olthoff Racing</name>
+        <description>Olthoff Racing</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.6487,35.6431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parkway Ford</name>
+        <description>Parkway Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.2582,36.0694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roush Yates Engines</name>
+        <description>Roush Yates Engines</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.8593,35.5835,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Town and Country Ford</name>
+        <description>Town and Country Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.7638,35.1838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wayland Gandy</name>
+        <description>Wayland Gandy</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.8605,35.4867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Luther Family Ford</name>
+        <description>Luther Family Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -96.8379,46.8309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RZ Motors</name>
+        <description>RZ Motors</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -102.6352,46,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anderson Ford-Lincoln</name>
+        <description>Anderson Ford-Lincoln</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -96.684,40.8823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shell Valley Companies, Inc.</name>
+        <description>Shell Valley Companies, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.4093,41.5187,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woodhouse Ford, Inc.</name>
+        <description>Woodhouse Ford, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -96.1453,41.5199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ford of Londonderry</name>
+        <description>Ford of Londonderry</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.3481,42.8655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[M & M Ford, Inc.]]></name>
+        <description><![CDATA[M & M Ford, Inc.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.3604,43.2287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monster Ford Performance</name>
+        <description>Monster Ford Performance</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -71.4573,42.9244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Able Ford</name>
+        <description>Able Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -74.3073,40.3752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Downs Ford, Inc.</name>
+        <description>Downs Ford, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -74.1714,39.9581,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fette Ford</name>
+        <description>Fette Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -74.1826,40.8714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fullerton Ford</name>
+        <description>Fullerton Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -74.6015,40.5799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gentilini Ford</name>
+        <description>Gentilini Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -74.7879,39.222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JDM Engineering</name>
+        <description>JDM Engineering</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -74.2695,40.2509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JV Motorsports</name>
+        <description>JV Motorsports</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -74.4163,40.6408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Magarino Ford</name>
+        <description>Magarino Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -74.5948,41.1984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quality Auto Mall</name>
+        <description>Quality Auto Mall</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.8309,40.8993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sansone Ford</name>
+        <description>Sansone Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0384,40.2334,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Stan's Dream Garage]]></name>
+        <description><![CDATA[Stan's Dream Garage]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -74.2047,39.8229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Warnock Ford, Inc.</name>
+        <description>Warnock Ford, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -74.4643,40.8052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Winner Ford</name>
+        <description>Winner Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -75.0244,39.89,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Albuquerque Lincoln Mercury</name>
+        <description>Albuquerque Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -106.5663,35.087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bob Turner Ford</name>
+        <description>Bob Turner Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -106.621,35.1355,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Southwest Performance</name>
+        <description>Southwest Performance</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -106.4889,35.098,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ziem's Ford Corners, Inc.]]></name>
+        <description><![CDATA[Ziem's Ford Corners, Inc.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -108.1366,36.7727,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Fairley & Stevens Limited]]></name>
+        <description><![CDATA[Fairley & Stevens Limited]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -63.6013,44.6955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Henrik's Automotive Performance]]></name>
+        <description><![CDATA[Henrik's Automotive Performance]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -9.8773,52.9889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salstrip Ultimate Vehicles</name>
+        <description>Salstrip Ultimate Vehicles</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -151.2778,33.6762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dynamic Auto West</name>
+        <description>Dynamic Auto West</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.7716,39.442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Finish Line Motorsports</name>
+        <description>Finish Line Motorsports</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0167,36.2775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ford Country</name>
+        <description>Ford Country</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0316,36.049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Friendly Ford-Las Vegas</name>
+        <description>Friendly Ford-Las Vegas</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2087,36.1796,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Full Throttle Performance</name>
+        <description>Full Throttle Performance</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.7716,39.4421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mesquite Ford</name>
+        <description>Mesquite Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -114.137,36.8022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mustang Depot</name>
+        <description>Mustang Depot</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1161,36.0728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Norm Baker Motors</name>
+        <description>Norm Baker Motors</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2297,36.1446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RDW Automotive</name>
+        <description>RDW Automotive</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.7762,39.5139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Summit Racing Equipment</name>
+        <description>Summit Racing Equipment</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.731,39.528,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Team Ford</name>
+        <description>Team Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2511,36.2605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Three Crowns Speed & Kustoms]]></name>
+        <description><![CDATA[Three Crowns Speed & Kustoms]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.7325,39.5213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TKO Motorsports LLC</name>
+        <description>TKO Motorsports LLC</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.7499,39.5058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Tom's Motorsports Inc.]]></name>
+        <description><![CDATA[Tom's Motorsports Inc.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0221,36.2782,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vegas Venom LLC</name>
+        <description>Vegas Venom LLC</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -115.2204,36.2645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Historischer Motorsport</name>
+        <description>Historischer Motorsport</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -8.6627,51.9032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>101 Motorsports</name>
+        <description>101 Motorsports</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -78.1828,42.9974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>707 Motoring</name>
+        <description>707 Motoring</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9884,40.5767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Classic Concepts</name>
+        <description>Classic Concepts</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.3719,40.7351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Classics And Customs</name>
+        <description>Classics And Customs</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -77.4728,42.999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dana Ford Lincoln Mercury</name>
+        <description>Dana Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -74.1978,40.5626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Di Blasi Motors, Inc.</name>
+        <description>Di Blasi Motors, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.8569,40.7583,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Diamond Ford LLC</name>
+        <description>Diamond Ford LLC</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0477,41.097,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ferrario Ford</name>
+        <description>Ferrario Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.8319,42.1491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Friendly Ford</name>
+        <description>Friendly Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0171,42.8572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Healey Ford</name>
+        <description>Healey Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -74.3406,41.3906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HRE Motorcars</name>
+        <description>HRE Motorcars</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.5747,40.649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Metro Ford Sales Inc.</name>
+        <description>Metro Ford Sales Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.8925,42.7702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nemer Ford</name>
+        <description>Nemer Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.6501,43.33,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rhinebeck Ford, Inc.</name>
+        <description>Rhinebeck Ford, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.8958,41.4748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[S & H Motors]]></name>
+        <description><![CDATA[S & H Motors]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -75.492,44.7007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sayville Ford</name>
+        <description>Sayville Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.0834,40.7635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snakepit Automotive</name>
+        <description>Snakepit Automotive</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.5691,40.6473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Van Bortel Ford</name>
+        <description>Van Bortel Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -77.4442,43.0097,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vision Ford</name>
+        <description>Vision Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -77.7574,43.2152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West-Herr Ford Inc</name>
+        <description>West-Herr Ford Inc</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -78.8552,42.7507,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>35 Auto Group</name>
+        <description>35 Auto Group</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.856,39.985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bob Gillingham Ford</name>
+        <description>Bob Gillingham Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.743,41.4186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brondes Motors Sales Inc.</name>
+        <description>Brondes Motors Sales Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.6241,41.716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dynatek Racing</name>
+        <description>Dynatek Racing</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.5331,41.2207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>George Waikem Ford</name>
+        <description>George Waikem Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.4545,40.7927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jay Racing</name>
+        <description>Jay Racing</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.15,39.7396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jegs</name>
+        <description>Jegs</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.0936,40.2765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Krieger Ford</name>
+        <description>Krieger Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.9708,40.0605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mike Castrucci Ford</name>
+        <description>Mike Castrucci Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.2424,39.1934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montrose Ford</name>
+        <description>Montrose Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.6414,41.1358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Fleet Services of Ohio</name>
+        <description>National Fleet Services of Ohio</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.0616,41.4875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Paul's Automotive Engineering]]></name>
+        <description><![CDATA[Paul's Automotive Engineering]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3776,39.2358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PickupsPlusCars</name>
+        <description>PickupsPlusCars</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.1377,40.0315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Summit Racing Equipment</name>
+        <description>Summit Racing Equipment</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.4089,41.0778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thrill Ride Unlimited</name>
+        <description>Thrill Ride Unlimited</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.5532,40.3527,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Troy Ford Inc.</name>
+        <description>Troy Ford Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.2005,39.9926,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Whitey's Automall, Inc]]></name>
+        <description><![CDATA[Whitey's Automall, Inc]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.5705,40.7594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Car FX</name>
+        <description>Car FX</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -95.8687,36.1002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Classic Recreations</name>
+        <description>Classic Recreations</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7874,35.51,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>David Stanley Ford</name>
+        <description>David Stanley Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5656,35.5115,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Riverside Autoplex</name>
+        <description>Riverside Autoplex</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -94.6353,35.0437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Body Kit Warehouse</name>
+        <description>Body Kit Warehouse</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.7047,43.6973,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brant County Ford</name>
+        <description>Brant County Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.2431,43.1733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cambrian Ford Sales</name>
+        <description>Cambrian Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.9025,46.4938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Colony Ford / Lincoln</name>
+        <description>Colony Ford / Lincoln</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.7444,43.7003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dingwall Ford Sales</name>
+        <description>Dingwall Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -94.4753,49.7602,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dixie Ford</name>
+        <description>Dixie Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.6329,43.6448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eastgate Ford</name>
+        <description>Eastgate Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.7877,43.2462,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Erinwood Ford Sales Limited</name>
+        <description>Erinwood Ford Sales Limited</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.6763,43.5304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>George Stockfish Ford Sales</name>
+        <description>George Stockfish Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3763,46.3006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grogan Ford Lincoln Sales Inc.</name>
+        <description>Grogan Ford Lincoln Sales Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.88,42.9465,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Highbury Ford</name>
+        <description>Highbury Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.2017,42.8874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Highland Ford Sales</name>
+        <description>Highland Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3194,46.5259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Legendary Motorcar Co.</name>
+        <description>Legendary Motorcar Co.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.8665,43.5518,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meadowvale Ford</name>
+        <description>Meadowvale Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.739,43.5844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palladini Pine Tree Ford Lincoln</name>
+        <description>Palladini Pine Tree Ford Lincoln</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.5475,43.7902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pinewood Ford Ltd</name>
+        <description>Pinewood Ford Ltd</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -89.2409,48.4172,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Planet Ford</name>
+        <description>Planet Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.7972,43.7006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rabs. J. Inc O/A Midas Auto</name>
+        <description>Rabs. J. Inc O/A Midas Auto</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3046,43.718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Radical Torque</name>
+        <description>Radical Torque</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.247,43.1826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Ron Clark Motors & RV]]></name>
+        <description><![CDATA[Ron Clark Motors & RV]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.119,42.9381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rose City Ford</name>
+        <description>Rose City Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.9499,42.3106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunset Country Ford</name>
+        <description>Sunset Country Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -93.4276,48.6071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Lambton Motors LTD</name>
+        <description>The Lambton Motors LTD</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.3815,42.9607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wayne Pitman Ford Lincoln</name>
+        <description>Wayne Pitman Ford Lincoln</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.3275,43.5287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aldridge Motorsports</name>
+        <description>Aldridge Motorsports</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.6021,45.5302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Butler Ford</name>
+        <description>Butler Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.7427,42.222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gresham Ford</name>
+        <description>Gresham Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4129,45.4964,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Hillyer's Mid City Ford]]></name>
+        <description><![CDATA[Hillyer's Mid City Ford]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.8843,45.1505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kendall Ford</name>
+        <description>Kendall Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -123.108,44.075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>American Muscle</name>
+        <description>American Muscle</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -75.5539,40.0644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Booze Bros. Performance</name>
+        <description>Booze Bros. Performance</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -77.6986,39.8642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Champion Ford Sales Inc.</name>
+        <description>Champion Ford Sales Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.1275,42.0925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CJ Pony Parts</name>
+        <description>CJ Pony Parts</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.7369,40.3335,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fairfield Ford</name>
+        <description>Fairfield Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.8926,41.2453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort Pitt Racing</name>
+        <description>Fort Pitt Racing</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.9265,40.4959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fred Beans Ford</name>
+        <description>Fred Beans Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -75.1318,40.3392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gene Latta</name>
+        <description>Gene Latta</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0029,39.8339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[H & H Performance Inc.]]></name>
+        <description><![CDATA[H & H Performance Inc.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -78.7705,41.0997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Haldeman Ford, Inc.</name>
+        <description>Haldeman Ford, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -75.498,40.6058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Haldeman Ford-Lincoln-Mercury</name>
+        <description>Haldeman Ford-Lincoln-Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -75.7376,40.5357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoffman Fordland</name>
+        <description>Hoffman Fordland</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.7988,40.3145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kightlinger Motors, Inc.</name>
+        <description>Kightlinger Motors, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -78.0333,41.7647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Legendary G.T. Continuation Cars</name>
+        <description>Legendary G.T. Continuation Cars</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -78.3945,40.3242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McNews Automotive</name>
+        <description>McNews Automotive</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -77.0153,40.1017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New Holland Ford</name>
+        <description>New Holland Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.1016,40.0983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Point Marion Ford</name>
+        <description>Point Marion Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.9016,39.7378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Posies Rods and Customs</name>
+        <description>Posies Rods and Customs</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.7169,40.2682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shults Ford</name>
+        <description>Shults Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.0515,40.606,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shults Ford at Rt 28</name>
+        <description>Shults Ford at Rt 28</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.8312,40.5385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tillman Speed Inc.</name>
+        <description>Tillman Speed Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4268,39.8444,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fajardo Ford Inc.</name>
+        <description>Fajardo Ford Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -65.7169,18.3744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chomedey Ford</name>
+        <description>Chomedey Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.7706,45.5607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LeBlanc Ford</name>
+        <description>LeBlanc Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.7165,45.3578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mustang Canada</name>
+        <description>Mustang Canada</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.4047,45.5005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mustang Direct</name>
+        <description>Mustang Direct</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.589,45.3952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Technika Industries Inc.</name>
+        <description>Technika Industries Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.8768,45.4879,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Unicorn Motors</name>
+        <description>Unicorn Motors</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -73.7181,45.4655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beach Ford</name>
+        <description>Beach Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -78.9064,33.7119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cooper Ford</name>
+        <description>Cooper Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.8779,34.4731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dick Smith Ford</name>
+        <description>Dick Smith Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.0052,34.0331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jones Ford</name>
+        <description>Jones Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.0187,32.9,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nostalgia Motorcars</name>
+        <description>Nostalgia Motorcars</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.988,34.9157,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>O.C. Welch Ford Lincoln-Merc., Inc.</name>
+        <description>O.C. Welch Ford Lincoln-Merc., Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.0727,32.2803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Unique Tuning</name>
+        <description>Unique Tuning</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -80.967,32.3116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Integrity Ford</name>
+        <description>Integrity Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -103.8139,44.4754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Locke Automotive</name>
+        <description>Locke Automotive</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -96.7669,43.5662,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Scott Peterson Motors</name>
+        <description>Scott Peterson Motors</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -103.8536,44.6792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Capital Ford Lincoln</name>
+        <description>Capital Ford Lincoln</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -104.6413,50.486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cypress Motors S.C. LTD</name>
+        <description>Cypress Motors S.C. LTD</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -107.8028,50.2833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Great Plains Ford</name>
+        <description>Great Plains Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -103.8642,49.6599,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jubilee Ford Sales</name>
+        <description>Jubilee Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -106.6514,52.0878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melody Motors Ltd.</name>
+        <description>Melody Motors Ltd.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -104.6102,52.8604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Novlan Bros.</name>
+        <description>Novlan Bros.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -109.4583,53.5389,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Village Ford Lincoln Sales</name>
+        <description>Village Ford Lincoln Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -105.5348,50.4132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camel Toe Racing</name>
+        <description>Camel Toe Racing</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -89.9293,35.0368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carter Kustom</name>
+        <description>Carter Kustom</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.697,35.9694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fairway Ford TN</name>
+        <description>Fairway Ford TN</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.5681,36.5555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Circle Ford Lincoln Mercury</name>
+        <description>Golden Circle Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8505,35.6445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Homer Skelton Ford</name>
+        <description>Homer Skelton Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8832,35.3712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jacky Jones Ford Lincoln Mercury</name>
+        <description>Jacky Jones Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4824,35.5939,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lance Cunningham Ford</name>
+        <description>Lance Cunningham Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -83.962,35.9991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marshal Mize Ford Inc.</name>
+        <description>Marshal Mize Ford Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -85.2463,35.1349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mustang Power</name>
+        <description>Mustang Power</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.7096,36.2735,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arrow Ford</name>
+        <description>Arrow Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -99.7739,32.4515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bluebonnet Motors</name>
+        <description>Bluebonnet Motors</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -98.1171,29.6929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boggus Motor Sales</name>
+        <description>Boggus Motor Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -98.2832,26.1907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa Ford Inc</name>
+        <description>Casa Ford Inc</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -106.4176,31.784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dallas Mustang</name>
+        <description>Dallas Mustang</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -96.7088,32.8958,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Infinity Conversions, LLC</name>
+        <description>Infinity Conversions, LLC</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.6606,30.4668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jim Bass Ford</name>
+        <description>Jim Bass Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -100.4901,31.4513,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Joe Myers Ford</name>
+        <description>Joe Myers Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -95.5725,29.8826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lade Ford</name>
+        <description>Lade Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -95.506,32.0515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Latemodel Restoration Suuply</name>
+        <description>Latemodel Restoration Suuply</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.1982,31.4738,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mac Haik Ford</name>
+        <description>Mac Haik Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -95.5522,29.7838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mac Haik Ford Lincoln Mercury</name>
+        <description>Mac Haik Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.6909,30.5827,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McCombs Ford West</name>
+        <description>McCombs Ford West</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -98.6288,29.4551,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Northside Ford</name>
+        <description>Northside Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -98.4852,29.5513,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pegues-Hurst Ford</name>
+        <description>Pegues-Hurst Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -94.75,32.4962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pro One Automotive Inc.</name>
+        <description>Pro One Automotive Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -95.2257,32.2183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PSI Motorsports</name>
+        <description>PSI Motorsports</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -95.1005,29.5139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Racing Legends Motorsports</name>
+        <description>Racing Legends Motorsports</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -96.7001,33.0103,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Radical Roadsters of Texas</name>
+        <description>Radical Roadsters of Texas</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -95.6141,29.9772,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Randall Reed's Prestige Ford]]></name>
+        <description><![CDATA[Randall Reed's Prestige Ford]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -96.6655,32.8726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Redline GT Racing Inc.</name>
+        <description>Redline GT Racing Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7389,32.4434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Scoggin-Dickey Parts Center</name>
+        <description>Scoggin-Dickey Parts Center</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -101.9404,33.5386,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sefeldt Automotive</name>
+        <description>Sefeldt Automotive</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -95.5068,29.839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sewell Ford</name>
+        <description>Sewell Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -102.3371,31.8631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South West Ford</name>
+        <description>South West Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.7077,32.7569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Texas Auto Trim</name>
+        <description>Texas Auto Trim</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -95.4876,29.6975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Texas Driving Experience</name>
+        <description>Texas Driving Experience</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.33,33.1106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tipton Motors Inc.</name>
+        <description>Tipton Motors Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5156,25.9629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tomball Ford</name>
+        <description>Tomball Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -95.5905,30.014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tommie Vaughn Motors</name>
+        <description>Tommie Vaughn Motors</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -95.41,29.7913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vintage Upgrades and Performance</name>
+        <description>Vintage Upgrades and Performance</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -95.2497,29.9478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gene Messer Ford Amarillo</name>
+        <description>Gene Messer Ford Amarillo</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -101.9381,35.1765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kinsel Motors</name>
+        <description>Kinsel Motors</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -94.1407,30.1105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Larry H Miller Ford</name>
+        <description>Larry H Miller Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -111.9055,40.7407,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St George Ford</name>
+        <description>St George Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -113.5856,37.0777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Battlefield Ford Jeep</name>
+        <description>Battlefield Ford Jeep</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -78.4504,38.0343,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beach Ford, Inc.</name>
+        <description>Beach Ford, Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.0645,36.8418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Oval Industries</name>
+        <description>Blue Oval Industries</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -78.6248,38.4061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cavalier Ford</name>
+        <description>Cavalier Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.2362,36.7974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Freedom Ford Lincoln Mercury</name>
+        <description>Freedom Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -82.5939,36.9696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marlow Ford</name>
+        <description>Marlow Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -78.484,38.6612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Richmond Ford Lincoln Mercury</name>
+        <description>Richmond Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -77.489,37.5782,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Springfield Motorsports</name>
+        <description>Springfield Motorsports</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -77.1973,38.7281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sterling Replicars</name>
+        <description>Sterling Replicars</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -77.4192,38.9935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Troyer Performance</name>
+        <description>Troyer Performance</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.9651,37.7743,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bickford Ford</name>
+        <description>Bickford Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -47.9462,90,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coupe Connection</name>
+        <description>Coupe Connection</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -123.304,48.0904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Diehl Ford</name>
+        <description>Diehl Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.4649,48.7537,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Empire Ford</name>
+        <description>Empire Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -117.418,47.655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Evergreen Ford</name>
+        <description>Evergreen Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0638,47.5475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Five Star Ford</name>
+        <description>Five Star Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -123.8105,46.9771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grant Motors</name>
+        <description>Grant Motors</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -123.1373,48.0774,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Legacy Ford Pasco</name>
+        <description>Legacy Ford Pasco</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.1319,46.2393,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Park Place LTD</name>
+        <description>Park Place LTD</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1573,47.6281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Thomas Lincoln Mercury & Advantage Nissan]]></name>
+        <description><![CDATA[Thomas Lincoln Mercury & Advantage Nissan]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.6832,47.562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Town Ford Inc.</name>
+        <description>Town Ford Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -120.3249,47.435,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Van Cleve Ford</name>
+        <description>Van Cleve Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -122.2813,46.5558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[B&B Ford Sales Inc]]></name>
+        <description><![CDATA[B&B Ford Sales Inc]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -87.8056,43.7292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Benna Ford Superior</name>
+        <description>Benna Ford Superior</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -92.1039,46.7031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Classic Autobody</name>
+        <description>Classic Autobody</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -89.5526,43.0468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dorsch Ford Kia</name>
+        <description>Dorsch Ford Kia</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -87.956,44.4646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ernie Von Schledorn Ford</name>
+        <description>Ernie Von Schledorn Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.44,43.5895,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GHP Motorsports</name>
+        <description>GHP Motorsports</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.5889,44.244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gordie Boucher Ford</name>
+        <description>Gordie Boucher Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.0927,43.1775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gordie Boucher Ford Lincoln Mercury</name>
+        <description>Gordie Boucher Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -89.0614,42.7293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Griffin Ford</name>
+        <description>Griffin Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.198,42.025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tom Peck Ford</name>
+        <description>Tom Peck Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -88.8651,42.5622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elkins Fordland Inc.</name>
+        <description>Elkins Fordland Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -79.8531,38.9405,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ramey Automotive</name>
+        <description>Ramey Automotive</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -81.1724,37.7925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Courtesy Ford Sales</name>
+        <description>Courtesy Ford Sales</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -110.9335,42.7244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>First Choice Ford</name>
+        <description>First Choice Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -109.2348,41.5775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fremont Motor Company</name>
+        <description>Fremont Motor Company</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -108.7222,42.8294,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Greiner Ford Lincoln Mercury</name>
+        <description>Greiner Ford Lincoln Mercury</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -106.3621,42.8257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spradley Motors Inc.</name>
+        <description>Spradley Motors Inc.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -104.8388,41.1306,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Weir Wholesale Parts</name>
+        <description>Weir Wholesale Parts</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -89.9981,38.2117,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sands Ford of Red Hill</name>
+        <description>Sands Ford of Red Hill</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4834,40.3777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moss Muscle</name>
+        <description>Moss Muscle</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -119.8248,34.4332,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sill-TerHar Motors</name>
+        <description>Sill-TerHar Motors</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -105.0942,39.918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Level 10 Products</name>
+        <description>Level 10 Products</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -74.5768,41.1534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hinder Ford</name>
+        <description>Hinder Ford</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -76.167237,39.5022,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shape 1</name>
+        <styleUrl>#poly-0000FF-3000-115-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -123.940431,48.592233,0
+                -124.892578,44.653024,0
+                -124.2086821262,39.5905914482,0
+                -124.189453,39.436193,0
+                -121.552734,34.741612,0
+                -117.070312,32.694866,0
+                -111.005859,31.653381,0
+                -106.259766,31.952162,0
+                -104.501953,29.688053,0
+                -103.359375,29.382175,0
+                -101.25,29.764377,0
+                -98.876953,26.273714,0
+                -97.558594,25.720735,0
+                -96.679687,28.22697,0
+                -93.779297,28.998532,0
+                -89.648437,29.075375,0
+                -88.681641,30.334954,0
+                -87.868652,30.297018,0
+                -87.341309,30.372875,0
+                -86.594238,30.467614,0
+                -85.693359,30.240086,0
+                -85.341797,29.61167,0
+                -84.155273,30.088108,0
+                -83.210449,29.40132,0
+                -82.661133,28.574874,0
+                -82.814941,27.469287,0
+                -81.89209,26.25401,0
+                -81.166992,25.423431,0
+                -81.101074,24.706915,0
+                -80.288086,25.264568,0
+                -79.643556,26.769154,0
+                -81.665041,31.000213,0
+                -80.332031,32.694866,0
+                -79.453125,33.504759,0
+                -75.688478,35.123503,0
+                -69.975588,42.572501,0
+                -69.7974436031886,43.1821868171954,0
+                -68.305666,47.830859,0
+                -70.766603,47.117991,0
+                -76.6360292821598,44.2136578957344,0
+                -76.831056,44.106521,0
+                -82.719728,42.182945,0
+                -82.5242066562222,44.7554527410511,0
+                -82.456056,45.601741,0
+                -88.784181,48.359169,0
+                -91.245119,48.300736,0
+                -95.024416,49.227643,0
+                -123.940431,48.592233,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

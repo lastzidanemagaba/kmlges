@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled layer</name>
+    <NetworkLink>
+      <name>My KML import</name>
+      <Link>
+        <href><![CDATA[https://www.google.com/maps/d/kml?forcekml=1&mid=13ldKeh96Oj-jKLhoq___JreBxbE&lid=zHTUIbGm-K1o.kn-WjM9HHU34]]></href>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>
